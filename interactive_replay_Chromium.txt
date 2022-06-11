@@ -1,0 +1,13 @@
+Virtual User Script started at : 2022-06-11 12:21:27
+TruClient Replay (build 0287) for LoadRunner Professional 2022.0.0, build 0433. OS: Windows 11, Browser: Chromium 96.0.4664.45, initialized on 2022/06/11 at 12:21:27 (1654946487.302s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "LL_Browse_100_HomePage" started.
+t=00001255ms: Step 1: Navigate to p_url started    [MsgId: MMSG-205180]
+t=00003719ms: Step 1: Navigate to https://www.liquidlogic.co.uk successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00011267ms: Step 2: Wait until Liquidlogic is the UK’s...  exists started    [MsgId: MMSG-205180]
+t=00011935ms: Step 2: Wait until Liquidlogic is the UK’s...  exists successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "LL_Browse_100_HomePage" ended with a "Pass" status (Duration: 10.6880 Think Time: 7.5430 Wasted Time: 1.2060).
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
